@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game - Multiple Levels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="level-select" id="level-select">
+            <h1>Memory Card Game</h1>
+            <div class="levels">
+                <button class="level-btn" data-level="1">Level 1: Beginner (2x2)</button>
+                <button class="level-btn" data-level="2">Level 2: Easy (4x3)</button>
+                <button class="level-btn" data-level="3">Level 3: Medium (4x4)</button>
+                <button class="level-btn" data-level="4">Level 4: Hard (5x4)</button>
+                <button class="level-btn" data-level="5">Level 5: Expert (6x4)</button>
+            </div>
+        </div>
+        <div class="game-container" id="game-container" style="display: none;">
+            <div class="game-info">
+                <div class="stats">
+                    <span class="level">Level: <span id="current-level">1</span></span>
+                    <span class="moves">Moves: <span id="moves-count">0</span></span>
+                    <span class="timer">Time: <span id="time">00:00</span></span>
+                    <span class="score">Score: <span id="score">0</span></span>
+                </div>
+                <div class="buttons">
+                    <button id="restart">Restart Level</button>
+                    <button id="back-to-levels">Change Level</button>
+                </div>
+            </div>
+            <div class="game-board"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,9 @@
+I want to create a browser-based memory card matching (flip) game in HTML, CSS, and JavaScript. Please help me set up the project files and write the code step by step. Here are the key features I want:
+A 4x4 grid of cards (total 16 cards, 8 unique pairs).
+Each card has an icon or emoji (hidden at the start; revealed when clicked).
+Players can flip two cards at a time—if they match, the cards stay face-up; if not, they flip back.
+The game ends when all pairs are matched.
+Include a move counter to track how many tries it takes to win.
+Add a timer to show how long the player takes to finish.
+Add a "Restart" button to reset the game.
+Make the game visually appealing with simple animations when cards flip and match
